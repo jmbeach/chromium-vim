@@ -455,6 +455,14 @@ Hints.siteFilters = {
       '.carousel-button'
     ],
   },
+	'*://todoist.com/*': {
+    accept: [
+      '.ist_checkbox',
+      '.item_table',
+      '.filter',
+      '.date'
+    ],
+  },
 };
 
 Hints.createHintFilter = function(url) {
